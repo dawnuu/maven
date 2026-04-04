@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tencent",
+    "module": "mmkv",
+    "version": "2.4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "DefaultCppReleaseVariantDefaultCppReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mmkv-2.4.0.1.aar",
+          "url": "mmkv-2.4.0.1.aar",
+          "size": 6268463,
+          "sha512": "3b4cebe26d004d2928288e43ed75cdadd7cff635e040181a1dac6a30cc16ed2939b0e487bcbd8b25f484378d04063a291d31708483e554909fd8cbf4c3cb6ca0",
+          "sha256": "01a17aabc94c69b83b35b46373a3db35ff4ab413b278fc3fd3d1c53a698b6ba5",
+          "sha1": "31ca21e992a92780494e4d1ed437c06d4a966263",
+          "md5": "8e4673187fbaba57723f601cc7a45d8f"
+        }
+      ]
+    },
+    {
+      "name": "DefaultCppReleaseVariantDefaultCppReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mmkv-2.4.0.1.aar",
+          "url": "mmkv-2.4.0.1.aar",
+          "size": 6268463,
+          "sha512": "3b4cebe26d004d2928288e43ed75cdadd7cff635e040181a1dac6a30cc16ed2939b0e487bcbd8b25f484378d04063a291d31708483e554909fd8cbf4c3cb6ca0",
+          "sha256": "01a17aabc94c69b83b35b46373a3db35ff4ab413b278fc3fd3d1c53a698b6ba5",
+          "sha1": "31ca21e992a92780494e4d1ed437c06d4a966263",
+          "md5": "8e4673187fbaba57723f601cc7a45d8f"
+        }
+      ]
+    },
+    {
+      "name": "DefaultCppReleaseVariantDefaultCppReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mmkv-2.4.0.1-javadoc.jar",
+          "url": "mmkv-2.4.0.1-javadoc.jar",
+          "size": 359728,
+          "sha512": "f98cff8a670c2d00767fc35c42e34bba40968ed1588e172b00ab230c51d2737032f514368dfe89d16b95d10b21bae8d8069bb9246b80501806991da9abc3b5c2",
+          "sha256": "81de44019a4184f8fc2ee90d461e7d32f6d504dd507e6ba3e0891d052f525744",
+          "sha1": "371288a44510cf8c4c2aa22c177cbc9217469bff",
+          "md5": "51683cc24c87d1a7393e53fccbd0cb14"
+        }
+      ]
+    }
+  ]
+}
