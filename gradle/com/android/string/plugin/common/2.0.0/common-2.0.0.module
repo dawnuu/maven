@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.string.plugin",
+    "module": "common",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-2.0.0.jar",
+          "url": "common-2.0.0.jar",
+          "size": 9762,
+          "sha512": "fa7a26c5f6e4e0d92c5c583f34243daa787eccc0a7759d15873a515d57566f3f7ba69666bc9bf26655f36e0e912d877d10760822e8f43ab04163331151da1913",
+          "sha256": "817208829e0c07327c56419104305c42855eab37870646de239703b812c162b6",
+          "sha1": "680a06a97ca4845c9fd1c5f9f94f13ef62e3c019",
+          "md5": "2c5b0f48ae749f0ce2b5a50fa1f39493"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-2.0.0.jar",
+          "url": "common-2.0.0.jar",
+          "size": 9762,
+          "sha512": "fa7a26c5f6e4e0d92c5c583f34243daa787eccc0a7759d15873a515d57566f3f7ba69666bc9bf26655f36e0e912d877d10760822e8f43ab04163331151da1913",
+          "sha256": "817208829e0c07327c56419104305c42855eab37870646de239703b812c162b6",
+          "sha1": "680a06a97ca4845c9fd1c5f9f94f13ef62e3c019",
+          "md5": "2c5b0f48ae749f0ce2b5a50fa1f39493"
+        }
+      ]
+    }
+  ]
+}

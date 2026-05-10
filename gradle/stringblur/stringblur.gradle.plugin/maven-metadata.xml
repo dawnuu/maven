@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.android.string.plugin</groupId>
-  <artifactId>common</artifactId>
+  <groupId>stringblur</groupId>
+  <artifactId>stringblur.gradle.plugin</artifactId>
   <versioning>
     <latest>2.0.0</latest>
     <release>2.0.0</release>
     <versions>
-      <version>1.1.5</version>
-      <version>1.1.6</version>
-      <version>1.1.7</version>
-      <version>1.1.8-SNAPSHOT</version>
       <version>2.0.0</version>
     </versions>
     <lastUpdated>20260510060549</lastUpdated>
